@@ -1,5 +1,5 @@
 import NavBar from "./NavBar"
-import EnglishLogo from 'src/assets/EnglishLogo.png';
+import EnglishLogo from '../assets/EnglishLogo.png';
 export default function Header() {
     return (
         <header>
