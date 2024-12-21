@@ -1,4 +1,5 @@
 import NavBar from "./NavBar"
+import EnglishLogo from 'src/assets/EnglishLogo.png';
 export default function Header() {
     return (
         <header>
@@ -11,10 +12,10 @@ export default function Header() {
             {/* Logo section */}
             <div className="logo-section">
                 <img
-                    src="src\assets\EnglishLogo.png"
+                    src={EnglishLogo}
                     alt="Jamia As-Suffah, Bogura"
                     className="logo-image"
-                /> 
+                />
             </div>
 
             <NavBar />
